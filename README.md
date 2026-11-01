@@ -14,8 +14,7 @@ Duas aplicações compartilham o mesmo banco de dados na nuvem:
 ```
 techfix/
 ├── sql/
-│   ├── schema.sql          # criação das tabelas, restrições, índices e políticas
-│   └── dados_teste.sql     # dados fictícios para testes (opcional)
+│   └── schema.sql          # criação das tabelas, restrições, índices e políticas
 ├── app_gradio.py           # interface de cadastro
 ├── app_streamlit.py        # painel de gerenciamento
 ├── requirements.txt        # dependências
@@ -33,9 +32,8 @@ techfix/
 ## 1. Banco de dados (Supabase)
 
 1. Crie um projeto no Supabase.
-2. Abra **SQL Editor** > **New query**, cole o conteúdo de `sql/schema.sql` e clique em **Run**.
-3. (Opcional) Rode `sql/dados_teste.sql` para inserir clientes e OS fictícios.
-4. Em **Project Settings > API**, copie a **Project URL** e a chave **anon / publishable**.
+2. Abra **SQL Editor > New query**, cole o conteúdo de `sql/schema.sql` e clique em **Run**.
+3. Em **Project Settings > API**, copie a **Project URL** e a chave **anon / publishable**.
 
 ## 2. Instalação
 
