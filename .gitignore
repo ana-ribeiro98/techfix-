@@ -1,0 +1,8 @@
+# Credenciais: nunca enviar para o GitHub
+.env
+.streamlit/secrets.toml
+
+# Ambiente virtual e arquivos temporários do Python
+venv/
+__pycache__/
+*.pyc
